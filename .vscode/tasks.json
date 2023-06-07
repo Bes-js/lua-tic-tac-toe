@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "Run Lua",
+		"type": "shell",
+		"command": "lua54", // İndirdiğiniz Lua Sürümüne Bağlı Değiştirin.
+		"args": [
+		  "${file}"
+		],
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		}
+	  }
+	]
+  }
